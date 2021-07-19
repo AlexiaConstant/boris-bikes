@@ -7,10 +7,10 @@ As a user, I want to be able to hire a working bike.
 
 |Objects | Messages |
 | --- | --- |
-| Bike | working?|
+| Bike | is_working?|
 | Docking Station | release_bike |
 | Person | |
 
 
-Bike -> working?->t/f  -> if f, repeat
-DockingStation -> release_bike -> Bike
+Bike →  is_working? → t/f  → if f, repeat <br>
+DockingStation → release_bike →  Bike <br>
